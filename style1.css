@@ -1,0 +1,488 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Page 1-----starts */
+header {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+.navbar h1 span {
+  color: rgb(0, 248, 0);
+}
+.navbar h1 {
+  color: whitesmoke;
+  font-size: 10vmin;
+  margin-left: 8vmin;
+  cursor: pointer;
+}
+.navbar {
+  align-items: center;
+  display: flex;
+  /* top: 0;
+  position:sticky; */
+  width: 100%;
+  height: 15vh;
+  background:black;
+}
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  margin: 6vmin;
+}
+.navbar li a {
+  text-decoration: none;
+  font-size: 3.5vmin;
+  color: whitesmoke;
+}
+.navbar ul {
+  align-items: center;
+  display: flex;
+  margin-left: 120vmin;
+}
+.content {
+  width: 100%;
+  display: flex;
+  padding-top: 7vmin;
+}
+.content .text {
+  color: whitesmoke;
+  font-size: 9vmin;
+  margin-left: 15vmin;
+  padding-top: 10vmin;
+}
+.content .text span {
+  color: red;
+  animation: color-change 20s infinite;
+}
+@keyframes color-change{
+    0% {color:rgb(255, 7, 7)  }
+    10%{color:rgb(255, 7, 127) }
+    20%{color: rgb(233, 23, 188) }
+    30%{color:rgb(210, 7, 255) }
+    40%{color:rgb(93, 0, 255) }
+    50%{color:rgb(32, 7, 255) }
+    60%{color: rgb(0, 164, 253)  }
+    70%{color:rgb(7, 255, 251) }
+    80%{color:rgb(7, 255, 52) }
+    90%{color:rgb(114, 255, 7) }
+    100%{color:  rgb(255, 238, 7) }
+}
+.content .image {
+  margin-left: 30vmin;
+  
+}
+.myself {
+  font-size: 6vmin;
+  color: yellow;
+  margin-left: 12vmin;
+  padding: 2vmin;
+}
+.pro {
+  color: whitesmoke;
+  font-size: 3vmin;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1vmin;
+  display: flex;
+}
+.ul li:hover{
+    transform: scale(1.09);
+}
+.down {
+  margin-top: 2vmin;
+  width: 4vmin;
+  height: 2vmin;
+  margin-left: 101vmin;
+  cursor: pointer;
+}
+.down:hover{
+    transform:scale(1.2)
+}
+/*Page 1-----ends */
+
+
+/*Page 2-----starts */
+.aanchal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+  width: 100%;
+  height: 115vh;
+}
+.img_aanchal{
+  width: 100vmin;
+  margin-left: 7vmin;
+  height: 60vh;
+  margin-right: 7vmin;
+  border-radius: 4vmin;
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);  
+}
+.txt_aanchal{
+  color: white;
+}
+.txt_aanchal h2{
+  font-size: 7vmin;
+  margin-bottom: 2vmin;
+}
+.txt_aanchal ul li{
+  list-style: disc white;
+  font-size:18px;
+}
+.txt_aanchal ul{
+  margin-top: 40px;
+}
+.txt_aanchal p{
+  font-size: 3vmin;
+  color: grey;
+}
+.txt_aanchal h4{
+  margin-top: 5vmin;
+  font-size: 5vmin;
+
+}
+.ctn{
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(255, 43, 142);
+  border-radius: 4vmin;
+  margin: 15px;
+}
+.ctn:hover{
+  transform: scale(1.2);
+  background-color:rgb(203, 44, 118) ;
+}
+.btn{
+  margin-top: 30px;
+}
+/*Page 2-----ends */
+
+/*Page  3-----starts */
+.img_blindr{
+  width: 100vmin;
+  margin-left: 7vmin;
+  height: 55vh;
+  margin-right: 7vmin;
+  border-radius: 4vmin;
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
+}
+.txt_blindr{
+  color:white;
+}
+.txt_blindr h2{
+  font-size: 7vmin;
+  margin-bottom: 2vmin;
+}
+.txt_blindr ul li{
+  list-style: disc white;
+  font-size:18px;
+}
+.txt_blindr ul{
+  margin-top: 40px;
+}
+.txt_blindr h4{
+  font-size: 5vmin;
+  margin-top: 5vmin;
+}
+.txt_blindr p{
+  font-size: 3vmin;
+  color: grey;
+}
+/*Page 3-----ends */
+
+/*Page 4-----starts */
+.mailme{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+  width: 100%;
+  height: 115vh;
+}
+.img_mailme{
+  width: 100vmin;
+  height: 55vh;
+  margin-right: 10vmin;
+  border-radius: 4vmin;
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
+}
+.txt_mailme{
+  color:white;
+  margin-right: 30vmin;
+}
+.txt_mailme h2{
+  font-size: 7vmin;
+  margin-bottom: 2vmin;
+}
+.txt_mailme ul li{
+  list-style: disc white;
+  font-size:18px;
+}
+.txt_mailme ul{
+  margin-top: 40px;
+}
+.txt_mailme h4{
+  font-size: 5vmin;
+  margin-top: 5vmin;
+}
+.txt_mailme p{
+  font-size: 3vmin;
+  color: grey;
+}
+/*Page 4-----ends */
+
+/*Page 5-----starts */
+.HM{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+  width: 100%;
+  height: 115vh;
+}
+.img_hm{
+  width: 100vmin;
+  height: 55vh;
+  margin-left: 5vmin;
+  border-radius: 4vmin;
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
+}
+.txt_hm{
+  color:white;
+  margin-left:7vmin;
+}
+.txt_hm h2{
+  font-size: 7vmin;
+  margin-bottom: 2vmin;
+}
+.txt_hm ul li{
+  list-style: disc white;
+  font-size:18px;
+}
+.txt_hm ul{
+  margin-top: 40px;
+}
+.txt_hm h4{
+  font-size: 5vmin;
+  margin-top: 5vmin;
+}
+.txt_hm p{
+  font-size: 3vmin;
+  color: grey;
+}
+/*Page 5-----ends */
+
+/*Page 6-----starts */
+.iete{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+  width: 100%;
+  height: 115vh;
+}
+.img_iete{
+  width: 100vmin;
+  height: 55vh;
+  margin-left: 5vmin;
+  border-radius: 4vmin;
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
+}
+.txt_iete{
+  color:white;
+  margin-left:7vmin;
+}
+.txt_iete h2{
+  font-size: 7vmin;
+  margin-bottom: 2vmin;
+}
+.txt_iete ul li{
+  list-style: disc white;
+  font-size:18px;
+}
+.txt_iete ul{
+  margin-top: 40px;
+}
+.txt_iete h4{
+  font-size: 5vmin;
+  margin-top: 5vmin;
+}
+.txt_iete p{
+  font-size: 3vmin;
+  color: grey;
+}
+/*Page 6-----ends */
+
+/*Page 7-----starts */
+.khoj{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+  width: 100%;
+  height: 115vh;
+}
+.img_khoj{
+  width: 100vmin;
+  height: 55vh;
+  margin-right: 10vmin;
+  border-radius: 4vmin;
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
+}
+.txt_khoj{
+  color:white;
+  margin-right: 7vmin;
+}
+.txt_khoj h2{
+  font-size: 7vmin;
+  margin-bottom: 2vmin;
+}
+.txt_khoj ul li{
+  list-style: disc white;
+  font-size:18px;
+}
+.txt_khoj ul{
+  margin-top: 40px;
+}
+.txt_khoj h4{
+  font-size: 5vmin;
+  margin-top: 5vmin;
+}
+.txt_khoj p{
+  font-size: 3vmin;
+  color: grey;
+}
+/*Page 7-----ends */
+/*page 8----starts*/
+.ally{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+  width: 100%;
+  height: 115vh;
+}
+.img_ally{
+  width: 100vmin;
+  height: 55vh;
+  margin-left: 6vmin;
+  border-radius: 4vmin;
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
+}
+.txt_ally{
+  color:white;
+  margin-left: 7vmin;
+}
+.txt_ally h2{
+  font-size: 7vmin;
+  margin-bottom: 2vmin;
+}
+.txt_ally ul li{
+  list-style: disc white;
+  font-size:18px;
+}
+.txt_ally ul{
+  margin-top: 40px;
+}
+.txt_ally h4{
+  font-size: 5vmin;
+  margin-top: 5vmin;
+}
+.txt_ally p{
+  font-size: 3vmin;
+  color: grey;
+}
+/*page 8----end*/
+/*Page9---starts*/
+.personal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+  width: 100%;
+  height: 115vh;
+}
+.img_personal{
+  width: 100vmin;
+  height: 55vh;
+  margin-right: 10vmin;
+  border-radius: 4vmin;
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
+}
+.txt_personal{
+  color:white;
+  margin-right: 7vmin;
+}
+.txt_personal h2{
+  font-size: 7vmin;
+  margin-bottom: 2vmin;
+}
+.txt_personal ul li{
+  list-style: disc white;
+  font-size:18px;
+}
+.txt_personal ul{
+  margin-top: 40px;
+}
+.txt_personal h4{
+  font-size: 5vmin;
+  margin-top: 5vmin;
+}
+.txt_personal p{
+  font-size: 3vmin;
+  color: grey;
+}
+/*Page9 ----ends*/
+
+/*Connect with Me -----starts*/
+.connect{
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+  width: 100%;
+  height: 80vh;
+}
+.connect p{
+  margin-left: 85vmin;
+  padding-top: 20vmin;
+  color: white;
+  font-size:7vmin
+}
+.connect .woo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.connect .woo li{
+  margin:60px;
+  font-size:4vmin;
+  color: white;
+  list-style: none;
+}
+.connect .woo li a{
+  text-decoration: none;
+  color: white;
+}
+
+/*Connect with Me-----ends */
+.navbar .ul .git{
+  width: 30px;
+  height: 30px;
+}
+.navbar .ul .lin{
+  width: 30px;
+  height: 30px;
+}
+.connect .woo .git{
+  width: 50px;
+  height: 50px;
+}
+.connect.woo .lin{
+  width: 30px;
+  height: 30px;
+}
