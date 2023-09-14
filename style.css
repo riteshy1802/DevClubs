@@ -41,7 +41,7 @@ header {
 .navbar ul {
   align-items: center;
   display: flex;
-  margin-left: 120vmin;
+  margin-left: 110vmin;
 }
 .content {
   width: 100%;
@@ -96,7 +96,7 @@ header {
   margin-top: 2vmin;
   width: 4vmin;
   height: 2vmin;
-  margin-left: 101vmin;
+  margin-left: 93vmin;
   cursor: pointer;
 }
 .down:hover{
@@ -143,7 +143,6 @@ header {
 .txt_aanchal h4{
   margin-top: 5vmin;
   font-size: 5vmin;
-
 }
 .ctn{
   color: whitesmoke;
@@ -485,4 +484,440 @@ header {
 .connect.woo .lin{
   width: 30px;
   height: 30px;
+}
+@media screen and (max-width:915px)/*my screen size is 770*/ {
+  header{
+    width: 70vmin;
+    height: 90vh;
+  }
+  .navbar{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 70vmin;
+    height: 7vh;
+  }
+  .navbar h1{
+    font-size: 4vmin;
+    margin: 10px;
+  }
+  .navbar ul li a{
+    font-size:2vmin ;
+  } 
+  .navbar .ul .git{
+    width: 20px;
+    height: 20px;
+  }
+  .navbar .ul .lin{
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .navbar ul{
+    margin-left:5vmin ;
+    margin-top: 10px;
+  }
+  .navbar .ul li:hover{
+    transform: scale(1.09);
+}
+  .content .text {
+    color: whitesmoke;
+    font-size: 5vmin;
+    margin-left: 4vmin;
+    padding-top: 4vmin;
+  }
+  .content .img1{
+    width: 35vmin;
+    height: 40vmin;
+    margin-top: 3vmin;
+  }
+  .content .image{
+    margin-left: 0;
+  }
+  .content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .myself{
+    font-size: 3vmin;
+  }
+  .pro{
+    font-size:2vmin;
+  }
+  .down{
+    margin-left: 46%;
+    margin-top: 1vmin;
+  }
+  .aanchal{
+    width: 70vmin;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .img_aanchal{
+    width: 60vmin;
+    height: 40vh;
+  }
+  .txt_aanchal h2{
+    margin-top:12px ;
+    font-size: 4vmin;
+    margin-left: 4vmin;
+    margin-bottom: 1vmin;
+  }
+  .txt_aanchal p{
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 18px;
+    margin-right:12px;
+  }
+  .txt_aanchal h4{
+    margin-top: 2vmin;
+    font-size: 3vmin;
+    margin-left: 18px;
+  }
+  .txt_aanchal ul li{
+    list-style: disc white;
+    font-size:2vmin;
+    margin-left: 24px;
+  }
+  .txt_aanchal ul{
+    margin-top: 2vmin;
+  }
+  .btn a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .mailme{
+    width: 70vmin;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .HM{
+    width: 70vmin;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .iete{
+    width: 70vmin;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .khoj{
+    width: 70vmin;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .ally{
+    width: 70vmin;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .connect{
+    width: 70vmin;
+    height: 100vh;
+  }
+  .img_blindr{
+    width: 60vmin;
+    height: 40vh;
+  }
+  .img_mailme{
+    width: 60vmin;
+    height: 40vh;
+    margin-left: 10vmin;
+  }
+  .img_hm{
+    width: 60vmin;
+    margin-right: 5vmin;
+    height: 40vh;
+  }
+  .img_iete{
+    width: 60vmin;
+    margin-right: 5vmin;
+    height: 40vh;
+  }
+  .img_ally{
+    width: 60vmin;
+    margin-right: 5vmin;
+    height: 40vh;
+  }
+  .img_khoj{ 
+    width: 60vmin;
+    margin-left: 10vmin;
+    height: 40vh;
+  }
+  .img_personal{
+    width: 60vmin;
+    margin-left: 10vmin;
+    height: 40vh;
+  }
+  /* BLINDR */
+  .txt_blindr h2{
+    margin-top:12px ;
+    font-size: 4vmin;
+    margin-left: 4vmin;
+    margin-bottom: 1vmin;
+  }
+  .txt_blindr p{
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 18px;
+    margin-right:12px;
+  }
+  .txt_blindr h4{
+    margin-top: 2vmin;
+    font-size: 3vmin;
+    margin-left: 18px;
+  }
+  .txt_blindr ul li{
+    list-style: disc white;
+    font-size:2vmin;
+    margin-left: 24px;
+  }
+  .txt_blindr ul{
+    margin-top: 2vmin;
+  }
+  .btn a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  /* MAILME */
+  .txt_mailme h2{
+    margin-top:12px ;
+    font-size: 4vmin;
+    margin-left: 4vmin;
+    margin-bottom: 1vmin;
+  }
+  .txt_mailme p{
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 18px;
+    margin-right:12px;
+  }
+  .txt_mailme h4{
+    margin-top: 2vmin;
+    font-size: 3vmin;
+    margin-left: 18px;
+  }
+  .txt_mailme ul li{
+    list-style: disc white;
+    font-size:2vmin;
+    margin-left: 24px;
+  }
+  .txt_mailme ul{
+    margin-top: 2vmin;
+  }
+  .btn a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  /* HM */
+  .txt_hm h2{
+    margin-top:12px ;
+    font-size: 4vmin;
+    margin-left: 4vmin;
+    margin-bottom: 1vmin;
+  }
+  .txt_hm p{
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 18px;
+    margin-right:12px;
+  }
+  .txt_hm h4{
+    margin-top: 2vmin;
+    font-size: 3vmin;
+    margin-left: 18px;
+  }
+  .txt_hm ul li{
+    list-style: disc white;
+    font-size:2vmin;
+    margin-left: 24px;
+  }
+  .txt_hm ul{
+    margin-top: 2vmin;
+  }
+  .btn a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  /* IETE */
+  .txt_iete h2{
+    margin-top:12px ;
+    font-size: 4vmin;
+    margin-left: 4vmin;
+    margin-bottom: 1vmin;
+  }
+  .txt_iete p{
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 18px;
+    margin-right:12px;
+  }
+  .txt_iete h4{
+    margin-top: 2vmin;
+    font-size: 3vmin;
+    margin-left: 18px;
+  }
+  .txt_iete ul li{
+    list-style: disc white;
+    font-size:2vmin;
+    margin-left: 24px;
+  }
+  .txt_iete ul{
+    margin-top: 2vmin;
+  }
+  .btn a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  /* KHOJ */
+  .txt_khoj h2{
+    margin-top:12px ;
+    font-size: 4vmin;
+    margin-left: 4vmin;
+    margin-bottom: 1vmin;
+  }
+  .txt_khoj p{
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 18px;
+    margin-right:12px;
+  }
+  .txt_khoj h4{
+    margin-top: 2vmin;
+    font-size: 3vmin;
+    margin-left: 18px;
+  }
+  .txt_khoj ul li{
+    list-style: disc white;
+    font-size:2vmin;
+    margin-left: 24px;
+  }
+  .txt_khoj ul{
+    margin-top: 2vmin;
+  }
+  .btn a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  /* ALLY */
+  .txt_ally h2{
+    margin-top:12px ;
+    font-size: 4vmin;
+    margin-left: 4vmin;
+    margin-bottom: 1vmin;
+  }
+  .txt_ally p{
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 18px;
+    margin-right:12px;
+  }
+  .txt_ally h4{
+    margin-top: 2vmin;
+    font-size: 3vmin;
+    margin-left: 18px;
+  }
+  .txt_ally ul li{
+    list-style: disc white;
+    font-size:2vmin;
+    margin-left: 24px;
+  }
+  .txt_ally ul{
+    margin-top: 2vmin;
+  }
+  .btn a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  /* PERSONAL */
+  .txt_personal h2{
+    margin-top:12px ;
+    font-size: 4vmin;
+    margin-left: 4vmin;
+    margin-bottom: 1vmin;
+  }
+  .txt_personal p{
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 18px;
+    margin-right:12px;
+  }
+  .txt_personal h4{
+    margin-top: 2vmin;
+    font-size: 3vmin;
+    margin-left: 18px;
+  }
+  .txt_personal ul li{
+    list-style: disc white;
+    font-size:2vmin;
+    margin-left: 24px;
+  }
+  .txt_personal ul{
+    margin-top: 2vmin;
+  }
+  .btn a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .connect p{
+    font-size: 6vmin;
+    margin-left: 23%;
+  }
+  .connect .woo ul li{
+    margin: 3px;
+    padding:3px;
+  }
+  .connect .woo{
+    display: block;
+    margin-left:20vmin ;
+    align-items: center;
+    justify-content: center;
+  }
 }
