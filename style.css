@@ -488,7 +488,7 @@ header {
 }
 
 /* MEDIA QUERY 1 */
-@media screen and (max-width:786px)/*my screen size is 770*/ {
+@media screen and (max-width:720px)/*my screen size is 770*/ {
   header{
     width: 100%;
     height: 110vmin;
@@ -993,7 +993,3 @@ header {
 
   }
 }
-
-
-
-
