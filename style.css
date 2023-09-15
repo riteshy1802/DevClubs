@@ -161,6 +161,14 @@ header {
 /*Page 2-----ends */
 
 /*Page  3-----starts */
+/* .blindr{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+  width: 100%;
+  height: 100vh;
+} */
 .img_blindr{
   width: 100vmin;
   margin-left: 7vmin;
@@ -200,7 +208,7 @@ header {
   justify-content: center;
   background-color:black;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 .img_mailme{
   width: 100vmin;
@@ -282,7 +290,7 @@ header {
   justify-content: center;
   background-color:black;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 .img_iete{
   width: 100vmin;
@@ -323,7 +331,7 @@ header {
   justify-content: center;
   background-color:black;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 .img_khoj{
   width: 100vmin;
@@ -363,7 +371,7 @@ header {
   justify-content: center;
   background-color:black;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 .img_ally{
   width: 100vmin;
@@ -403,7 +411,7 @@ header {
   justify-content: center;
   background-color:black;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 .img_personal{
   width: 100vmin;
