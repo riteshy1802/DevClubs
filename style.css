@@ -958,6 +958,7 @@ header {
     font-size: 4vmin;
     margin-left: 18px;
   }
+
   .txt_personal ul li{
     list-style: disc white;
     font-size:3vmin;
@@ -966,6 +967,7 @@ header {
   .txt_personal ul{
     margin-top: 2vmin;
   }
+  
   .btn a{
     align-items: center;
     justify-content: center;
