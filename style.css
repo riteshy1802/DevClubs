@@ -546,6 +546,7 @@ header {
   }
   .myself{
     font-size: 3vmin;
+    margin-left: 35%;
   }
   .pro{
     font-size:2vmin;
@@ -910,7 +911,7 @@ header {
   }
   .connect p{
     font-size: 6vmin;
-    margin-left: 23%;
+    margin-left: 35%;
   }
   .connect .woo ul li{
     margin: 3px;
@@ -918,7 +919,7 @@ header {
   }
   .connect .woo{
     display: block;
-    margin-left:20vmin ;
+    margin-left:40% ;
     align-items: center;
     justify-content: center;
   }
