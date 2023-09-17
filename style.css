@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
-
 /*Page 1-----starts */
 header {
   background-color: black;
@@ -376,7 +373,7 @@ h1 {
   justify-content: center;
   background-color: black;
   width: 100%;
-  height: 105vh;
+  height: 80vh;
 }
 
 .img_iete {
@@ -473,7 +470,7 @@ h1 {
   justify-content: center;
   background-color: black;
   width: 100%;
-  height: 105vh;
+  height: 110vh;
 }
 
 .img_ally {
@@ -638,9 +635,7 @@ h1 {
   width: 7vmin;
   height: 7vmin;
   cursor: pointer;
-}
-
-
+} 
 /* MEDIA QUERY 1 */
 @media screen and (max-width:720px)
 /*my screen size is 770*/
@@ -704,7 +699,7 @@ h1 {
     color: whitesmoke;
     font-size: 7vmin;
     margin-left: 4vmin;
-    padding-top: 10vmin;
+    padding-top: 0vmin;
   }
 
   .content .img1 {
@@ -741,10 +736,10 @@ h1 {
   .aanchal {
     width: 100%;
     display: block;
+    padding-top: 30px;
+    height:110vh ;
     align-items: center;
     justify-content: center;
-    /* display: flex; */
-    flex-direction: column;
 
   }
 
@@ -806,6 +801,7 @@ h1 {
   .mailme {
     width: 100%;
     display: block;
+    height: 110vh;
     align-items: center;
     justify-content: center;
     /* display: flex; */
@@ -814,6 +810,7 @@ h1 {
 
   .HM {
     width: 100%;
+    height: 110vh;
     display: block;
     /* align-items: center;
     justify-content: center; */
@@ -824,6 +821,7 @@ h1 {
   .iete {
     width: 100%;
     display: block;
+    height: 110vh;
     /* align-items: center;
     justify-content: center;
     display: flex;
@@ -832,6 +830,7 @@ h1 {
 
   .khoj {
     width: 100%;
+    height: 110vh;
     display: block;
     /* align-items: center;
     justify-content: center;
@@ -850,7 +849,7 @@ h1 {
 
   .connect {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
   }
 
   .img_blindr {
@@ -1230,12 +1229,12 @@ h1 {
   }
 
   .connect p {
-    font-size: 6vmin;
+    font-size: 8vmin;
     margin-left: 5vmin;
   }
 
   .connect .woo ul li {
-    margin: 3px;
+    /* margin: 3px; */
     padding: 3px;
   }
 
@@ -1250,10 +1249,6 @@ h1 {
     justify-content: center;
   }
 
-  .connect {
-    width: "100%";
-    height: "60vh";
-  }
 
   .ham {
     display: block;
@@ -1279,3 +1274,8 @@ h1 {
     top: 0;
   }
 }
+
+/* Media Query 2*/
+/* @media screen and(min-width:720px) and (max-width:1200){
+
+} */
