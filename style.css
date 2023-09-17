@@ -1,86 +1,135 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 /*Page 1-----starts */
 header {
   background-color: black;
   width: 100%;
   height: 100vh;
 }
-.navbar h1 span {
-  color: rgb(0, 248, 0);
+
+h1 span {
+  color: rgb(248, 0, 182);
 }
-.navbar h1 {
+
+h1 {
   color: whitesmoke;
   font-size: 10vmin;
   margin-left: 8vmin;
+  margin-top: 2vmin;
   cursor: pointer;
+  position: absolute;
 }
+
 .navbar {
   align-items: center;
   display: flex;
-  /* top: 0;
-  position:sticky; */
+  top: 0;
+  position: sticky;
   width: 100%;
   height: 15vh;
-  background:black;
+  position: absolute;
+  /* background:rgb(0, 0, 0); */
 }
+
 .navbar li {
   list-style: none;
   display: inline-block;
   margin: 6vmin;
 }
+
 .navbar li a {
   text-decoration: none;
   font-size: 3.5vmin;
   color: whitesmoke;
 }
+
 .navbar ul {
   align-items: center;
   display: flex;
-  margin-left: 110vmin;
+  margin-top: 30px;
+  margin-left: 100vmin;
 }
+
 .content {
   width: 100%;
   display: flex;
-  padding-top: 7vmin;
+  padding-top: 30vmin;
 }
+
 .content .text {
   color: whitesmoke;
   font-size: 9vmin;
   margin-left: 15vmin;
   padding-top: 10vmin;
 }
+
 .content .text span {
-  color: red;
+
   animation: color-change 20s infinite;
 }
-@keyframes color-change{
-    0% {color:rgb(255, 7, 7)  }
-    10%{color:rgb(255, 7, 127) }
-    20%{color: rgb(233, 23, 188) }
-    30%{color:rgb(210, 7, 255) }
-    40%{color:rgb(93, 0, 255) }
-    50%{color:rgb(32, 7, 255) }
-    60%{color: rgb(0, 164, 253)  }
-    70%{color:rgb(7, 255, 251) }
-    80%{color:rgb(7, 255, 52) }
-    90%{color:rgb(114, 255, 7) }
-    100%{color:  rgb(255, 238, 7) }
+
+@keyframes color-change {
+  0% {
+    color: rgb(255, 7, 7)
+  }
+
+  10% {
+    color: rgb(255, 7, 127)
+  }
+
+  20% {
+    color: rgb(233, 23, 188)
+  }
+
+  30% {
+    color: rgb(210, 7, 255)
+  }
+
+  40% {
+    color: rgb(93, 0, 255)
+  }
+
+  50% {
+    color: rgb(32, 7, 255)
+  }
+
+  60% {
+    color: rgb(0, 164, 253)
+  }
+
+  70% {
+    color: rgb(7, 255, 251)
+  }
+
+  80% {
+    color: rgb(7, 255, 52)
+  }
+
+  90% {
+    color: rgb(114, 255, 7)
+  }
+
+  100% {
+    color: rgb(255, 238, 7)
+  }
 }
+
 .content .image {
   margin-left: 30vmin;
-  
+
 }
+
 .myself {
   font-size: 6vmin;
   color: yellow;
   margin-left: 12vmin;
   padding: 2vmin;
 }
+
 .pro {
   color: whitesmoke;
   font-size: 3vmin;
@@ -89,9 +138,11 @@ header {
   padding-top: 1vmin;
   display: flex;
 }
-.ul li:hover{
-    transform: scale(1.09);
+
+.ul li:hover {
+  transform: scale(1.09);
 }
+
 .down {
   margin-top: 2vmin;
   width: 4vmin;
@@ -99,77 +150,86 @@ header {
   margin-left: 93vmin;
   cursor: pointer;
 }
-.down:hover{
-    transform:scale(1.2)
+
+.down:hover {
+  transform: scale(1.2)
 }
+
 /*Page 1-----ends */
 
 
 /*Page 2-----starts */
-.aanchal{
+.aanchal {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:black;
+  background-color: black;
   width: 100%;
-  height: 110vh;
+  height: 105vh;
 }
-.img_aanchal{
+
+.img_aanchal {
   width: 100vmin;
   margin-left: 7vmin;
   height: 60vh;
   margin-right: 7vmin;
   border-radius: 4vmin;
-  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);  
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
 }
-.txt_aanchal{
+
+.txt_aanchal {
   color: white;
+  margin-right: 25px;
 }
-.txt_aanchal h2{
+
+.txt_aanchal h2 {
   margin-bottom: 2vmin;
+  font-size: 7vmin;
 }
-.txt_aanchal ul li{
+
+.txt_aanchal ul li {
   list-style: disc white;
-  font-size:18px;
+  font-size: 18px;
 }
-.txt_aanchal ul{
+
+.txt_aanchal ul {
   margin-top: 40px;
 }
-.txt_aanchal p{
-  font-size: 5vmin;
+
+.txt_aanchal p {
+  font-size: 3vmin;
   color: grey;
 }
-.txt_aanchal h4{
+
+.txt_aanchal h4 {
   margin-top: 5vmin;
   font-size: 5vmin;
 }
-.ctn{
+
+.ctn {
   color: whitesmoke;
   text-decoration: none;
   padding: 10px;
+  font-size: 3vmin;
   background-color: rgb(255, 43, 142);
   border-radius: 4vmin;
   margin: 15px;
 }
-.ctn:hover{
+
+.ctn:hover {
   transform: scale(1.2);
-  background-color:rgb(203, 44, 118) ;
+  background-color: rgb(203, 44, 118);
+  transition: 0.5s ease;
 }
-.btn{
+
+.btn {
   margin-top: 30px;
 }
+
 /*Page 2-----ends */
 
 /*Page  3-----starts */
-/* .blindr{
-  display: block;
-  align-items: center;
-  justify-content: center;
-  background-color:black;
-  width: 100%;
-  height: 100vh;
-} */
-.img_blindr{
+.img_blindr {
   width: 100vmin;
   margin-left: 7vmin;
   height: 55vh;
@@ -177,394 +237,505 @@ header {
   border-radius: 4vmin;
   box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
 }
-.txt_blindr{
-  color:white;
+
+.txt_blindr {
+  color: white;
 }
-.txt_blindr h2{
+
+.txt_blindr h2 {
   font-size: 7vmin;
   margin-bottom: 2vmin;
 }
-.txt_blindr ul li{
+
+.txt_blindr ul li {
   list-style: disc white;
-  font-size:18px;
+  font-size: 18px;
 }
-.txt_blindr ul{
+
+.txt_blindr ul {
   margin-top: 40px;
 }
-.txt_blindr h4{
+
+.txt_blindr h4 {
   font-size: 5vmin;
   margin-top: 5vmin;
 }
-.txt_blindr p{
+
+.txt_blindr p {
   font-size: 3vmin;
   color: grey;
 }
+
 /*Page 3-----ends */
 
 /*Page 4-----starts */
-.mailme{
-  display: block;
+.mailme {
+  display: flex;
   align-items: center;
   justify-content: center;
-  background-color:black;
+  background-color: black;
   width: 100%;
-  height: 110vh;
+  height: 105vh;
 }
-.img_mailme{
+
+.img_mailme {
   width: 100vmin;
   height: 55vh;
-  margin-right: 10vmin;
+  margin-right: 9vmin;
   border-radius: 4vmin;
   box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
 }
-.txt_mailme{
-  color:white;
-  margin-right: 30vmin;
+
+.txt_mailme {
+  color: white;
+  margin-right: 10vmin;
 }
-.txt_mailme h2{
+
+.txt_mailme h2 {
   font-size: 7vmin;
   margin-bottom: 2vmin;
 }
-.txt_mailme ul li{
+
+.txt_mailme ul li {
   list-style: disc white;
-  font-size:18px;
+  font-size: 18px;
 }
-.txt_mailme ul{
+
+.txt_mailme ul {
   margin-top: 40px;
 }
-.txt_mailme h4{
+
+.txt_mailme h4 {
   font-size: 5vmin;
   margin-top: 5vmin;
 }
-.txt_mailme p{
+
+.txt_mailme p {
   font-size: 3vmin;
   color: grey;
 }
+
 /*Page 4-----ends */
 
 /*Page 5-----starts */
-.HM{
+.HM {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:black;
-  width: 100%;
-  height: 90vh;
-}
-.img_hm{
-  width: 100vmin;
-  height: 55vh;
-  margin-left: 5vmin;
-  border-radius: 4vmin;
-  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
-}
-.txt_hm{
-  color:white;
-  margin-left:7vmin;
-}
-.txt_hm h2{
-  font-size: 7vmin;
-  margin-bottom: 2vmin;
-}
-.txt_hm ul li{
-  list-style: disc white;
-  font-size:18px;
-}
-.txt_hm ul{
-  margin-top: 40px;
-}
-.txt_hm h4{
-  font-size: 5vmin;
-  margin-top: 5vmin;
-}
-.txt_hm p{
-  font-size: 3vmin;
-  color: grey;
-}
-/*Page 5-----ends */
-
-/*Page 6-----starts */
-.iete{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color:black;
+  background-color: black;
   width: 100%;
   height: 100vh;
 }
-.img_iete{
+
+.img_hm {
   width: 100vmin;
   height: 55vh;
   margin-left: 5vmin;
   border-radius: 4vmin;
   box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
 }
-.txt_iete{
-  color:white;
-  margin-left:7vmin;
+
+.txt_hm {
+  color: white;
+  margin-left: 7vmin;
 }
-.txt_iete h2{
+
+.txt_hm h2 {
   font-size: 7vmin;
   margin-bottom: 2vmin;
 }
-.txt_iete ul li{
+
+.txt_hm ul li {
   list-style: disc white;
-  font-size:18px;
+  font-size: 18px;
 }
-.txt_iete ul{
+
+.txt_hm ul {
   margin-top: 40px;
 }
-.txt_iete h4{
+
+.txt_hm h4 {
   font-size: 5vmin;
   margin-top: 5vmin;
 }
-.txt_iete p{
+
+.txt_hm p {
   font-size: 3vmin;
   color: grey;
 }
+
+/*Page 5-----ends */
+
+/*Page 6-----starts */
+.iete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  height: 105vh;
+}
+
+.img_iete {
+  width: 100vmin;
+  height: 55vh;
+  margin-left: 5vmin;
+  border-radius: 4vmin;
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
+}
+
+.txt_iete {
+  color: white;
+  margin-left: 7vmin;
+}
+
+.txt_iete h2 {
+  font-size: 7vmin;
+  margin-bottom: 2vmin;
+}
+
+.txt_iete ul li {
+  list-style: disc white;
+  font-size: 18px;
+}
+
+.txt_iete ul {
+  margin-top: 40px;
+}
+
+.txt_iete h4 {
+  font-size: 5vmin;
+  margin-top: 5vmin;
+}
+
+.txt_iete p {
+  font-size: 3vmin;
+  color: grey;
+}
+
 /*Page 6-----ends */
 
 /*Page 7-----starts */
-.khoj{
-  display: block;
+.khoj {
+  display: flex;
   align-items: center;
   justify-content: center;
-  background-color:black;
+  background-color: black;
   width: 100%;
-  height: 110vh;
+  height: 105vh;
 }
-.img_khoj{
+
+.img_khoj {
   width: 100vmin;
   height: 55vh;
   margin-right: 10vmin;
   border-radius: 4vmin;
   box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
 }
-.txt_khoj{
-  color:white;
+
+.txt_khoj {
+  color: white;
   margin-right: 7vmin;
 }
-.txt_khoj h2{
+
+.txt_khoj h2 {
   font-size: 7vmin;
   margin-bottom: 2vmin;
 }
-.txt_khoj ul li{
+
+.txt_khoj ul li {
   list-style: disc white;
-  font-size:18px;
+  font-size: 18px;
 }
-.txt_khoj ul{
+
+.txt_khoj ul {
   margin-top: 40px;
 }
-.txt_khoj h4{
+
+.txt_khoj h4 {
   font-size: 5vmin;
   margin-top: 5vmin;
 }
-.txt_khoj p{
+
+.txt_khoj p {
   font-size: 3vmin;
   color: grey;
 }
+
 /*Page 7-----ends */
 /*page 8----starts*/
-.ally{
+.ally {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:black;
+  background-color: black;
   width: 100%;
-  height: 110vh;
+  height: 105vh;
 }
-.img_ally{
+
+.img_ally {
   width: 100vmin;
   height: 55vh;
   margin-left: 6vmin;
   border-radius: 4vmin;
   box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
 }
-.txt_ally{
-  color:white;
+
+.txt_ally {
+  color: white;
   margin-left: 7vmin;
 }
-.txt_ally h2{
+
+.txt_ally h2 {
   font-size: 7vmin;
   margin-bottom: 2vmin;
 }
-.txt_ally ul li{
+
+.txt_ally ul li {
   list-style: disc white;
-  font-size:18px;
+  font-size: 18px;
 }
-.txt_ally ul{
+
+.txt_ally ul {
   margin-top: 40px;
 }
-.txt_ally h4{
+
+.txt_ally h4 {
   font-size: 5vmin;
   margin-top: 5vmin;
 }
-.txt_ally p{
+
+.txt_ally p {
   font-size: 3vmin;
   color: grey;
 }
+
 /*page 8----end*/
 /*Page9---starts*/
-.personal{
+.personal {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:black;
+  background-color: black;
   width: 100%;
-  height: 110vh;
+  height: 100vh;
 }
-.img_personal{
+
+.img_personal {
   width: 100vmin;
   height: 55vh;
-  margin-right: 10vmin;
+  margin-right: 9vmin;
   border-radius: 4vmin;
   box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
 }
-.txt_personal{
-  color:white;
+
+.txt_personal {
+  color: white;
   margin-right: 7vmin;
 }
-.txt_personal h2{
+
+.txt_personal h2 {
   font-size: 7vmin;
   margin-bottom: 2vmin;
 }
-.txt_personal ul li{
+
+.txt_personal ul li {
   list-style: disc white;
-  font-size:18px;
+  font-size: 18px;
 }
-.txt_personal ul{
+
+.txt_personal ul {
   margin-top: 40px;
 }
-.txt_personal h4{
+
+.txt_personal h4 {
   font-size: 5vmin;
   margin-top: 5vmin;
 }
-.txt_personal p{
+
+.txt_personal p {
   font-size: 3vmin;
   color: grey;
 }
+
 /*Page9 ----ends*/
 
 /*Connect with Me -----starts*/
-.connect{
+.connect {
   align-items: center;
   justify-content: center;
-  background-color:black;
+  background-color: black;
   width: 100%;
-  height: 80vh;
+  height: 60vh;
 }
-.connect p{
+
+.connect p {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 20vmin;
   color: white;
-  font-size:7vmin
+  font-size: 7vmin
 }
-.connect .woo{
+
+.connect .woo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.connect .woo li{
-  margin:60px;
-  font-size:4vmin;
+
+.connect .woo li {
+  margin: 60px;
+  font-size: 4vmin;
   color: white;
   list-style: none;
 }
-.connect .woo li a{
+
+.connect .woo li a {
   text-decoration: none;
   color: white;
 }
 
 /*Connect with Me-----ends */
-.navbar .ul .git{
-  width: 30px;
-  height: 30px;
-}
-.navbar .ul .lin{
-  width: 30px;
-  height: 30px;
-}
-.connect .woo .git{
-  width: 50px;
-  height: 50px;
-}
-.connect.woo .lin{
+.navbar .ul .git {
   width: 30px;
   height: 30px;
 }
 
+.navbar .ul .lin {
+  width: 30px;
+  height: 30px;
+}
+
+.connect .woo .git {
+  width: 50px;
+  height: 50px;
+}
+
+.connect.woo .lin {
+  width: 30px;
+  height: 30px;
+}
+
+.ham {
+  height: 8vmin;
+  width: 8vmin;
+  display: none;
+  margin-left: 80vmin;
+  margin-top: 6vmin;
+  position: absolute;
+  cursor: pointer;
+
+}
+
+.closeBtn {
+  display: flex;
+  margin-bottom: 30vmin;
+  margin-left: 25vmin;
+  width: 7vmin;
+  height: 7vmin;
+  cursor: pointer;
+}
+
+
 /* MEDIA QUERY 1 */
-@media screen and (max-width:720px)/*my screen size is 770*/ {
-  header{
+@media screen and (max-width:720px)
+/*my screen size is 770*/
+  {
+  header {
     width: 100%;
     height: 110vmin;
   }
-  .navbar{
-    align-items: center;
-    justify-content: center;
-    display: flex;
+
+  .navbar {
+    top: -100%;
     width: 100%;
-    height: 7vh;
+    height: 40vh;
+    position: absolute;
+    background: linear-gradient(rgba(22, 21, 21, 0.798), rgba(65, 63, 63, 0.744));
+    border-bottom-right-radius: 10vmin; 
+    border-bottom-left-radius: 10vmin;
+    transition: top 0.7s ease;
+
   }
-  .navbar h1{
-    font-size: 6vmin;
-    margin: 2vmin;
+
+  h1 {
+    z-index: 1;
+    position: absolute;
+    font-size: 9vmin;
+    margin-left: 5vmin;
+    margin-top: 5vmin;
   }
-  .navbar ul li a{
-    font-size:3vmin ;
-  } 
-  .navbar .ul .git{
+
+  .navbar ul li a {
+    font-size: 3vmin;
+    margin-top: 30px;
+  }
+
+  .navbar .ul .git {
     width: 5vmin;
     height: 5vmin;
   }
-  .navbar .ul .lin{
+
+  .navbar .ul .lin {
     width: 4vmin;
     height: 4vmin;
     align-items: center;
     justify-content: center;
     display: flex;
   }
-  .navbar ul{
-    margin-left:5vmin ;
+
+  .navbar ul {
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-left: 5vmin;
     margin-top: 2vmin;
   }
-  .navbar .ul li:hover{
+
+  .navbar .ul li:hover {
     transform: scale(1.09);
-}
+  }
+
   .content .text {
     color: whitesmoke;
     font-size: 7vmin;
     margin-left: 4vmin;
-    padding-top: 4vmin;
+    padding-top: 10vmin;
   }
-  .content .img1{
+
+  .content .img1 {
     width: 35vmin;
     height: 40vmin;
     margin-top: 3vmin;
   }
-  .content .image{
+
+  .content .image {
     margin-left: 0;
   }
+
   .content {
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
   }
-  .myself{
+
+  .myself {
     font-size: 3vmin;
     margin-left: 28vmin;
   }
-  .pro{
-    font-size:2vmin;  
+
+  .pro {
+    font-size: 2vmin;
   }
-  .down{
+
+  .down {
     margin-left: 48vmin;
     margin-top: 1vmin;
   }
-  .aanchal{
+
+  .aanchal {
     width: 100%;
     display: block;
     align-items: center;
@@ -573,53 +744,63 @@ header {
     flex-direction: column;
 
   }
-  .aanchal_image{
+
+  .aanchal_image {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .img_aanchal{
+
+  .img_aanchal {
     width: 80vmin;
     height: 60vmin;
   }
-  .txt_aanchal{
+
+  .txt_aanchal {
     margin-top: 3vmin;
     margin-left: 9vmin;
   }
-  .txt_aanchal h2{
-    margin-top:12px ;
+
+  .txt_aanchal h2 {
+    margin-top: 12px;
     font-size: 7vmin;
     margin-left: 4vmin;
     margin-bottom: 1vmin;
   }
-  .txt_aanchal p{
+
+  .txt_aanchal p {
     font-size: 2.8vmin;
     align-items: center;
     justify-content: center;
     display: flex;
     margin-left: 18px;
-    margin-right:12px;
+    margin-right: 12px;
   }
-  .txt_aanchal h4{
+
+  .txt_aanchal h4 {
     margin-top: 2vmin;
     font-size: 4vmin;
     margin-left: 18px;
   }
-  .txt_aanchal ul li{
+
+  .txt_aanchal ul li {
     list-style: disc white;
-    font-size:3vmin;
+    font-size: 3vmin;
     margin-left: 24px;
   }
-  .txt_aanchal ul{
+
+  .txt_aanchal ul {
     margin-top: 2vmin;
   }
-  .btn a{
+
+  .btn a {
     width: 40vmin;
     align-items: center;
     justify-content: center;
     display: flex;
   }
-  .mailme{
+
+  .mailme {
     width: 100%;
     display: block;
     align-items: center;
@@ -627,7 +808,8 @@ header {
     /* display: flex; */
     /* flex-direction: column; */
   }
-  .HM{
+
+  .HM {
     width: 100%;
     display: block;
     /* align-items: center;
@@ -635,7 +817,8 @@ header {
     /* display: flex; */
     /* flex-direction: column; */
   }
-  .iete{
+
+  .iete {
     width: 100%;
     display: block;
     /* align-items: center;
@@ -643,361 +826,453 @@ header {
     display: flex;
     flex-direction: column; */
   }
-  .khoj{
-    width:100%;
+
+  .khoj {
+    width: 100%;
     display: block;
     /* align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column; */
   }
-  .ally{
+
+  .ally {
     width: 100%;
     display: block;
-      /* align-items: center;
+    /* align-items: center;
       justify-content: center;
       display: flex;
       flex-direction: column; */
   }
-  .connect{
+
+  .connect {
     width: 100%;
     height: 100vh;
   }
-  .img_blindr{
+
+  .img_blindr {
     width: 80vmin;
     height: 60vmin;
   }
-  .blindr_image{
+
+  .blindr_image {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .img_mailme{
+
+  .img_mailme {
     width: 80vmin;
     height: 60vmin;
     margin-left: 10vmin;
   }
-  .mailme_image{
+
+  .mailme_image {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .img_hm{
+
+  .img_hm {
     width: 80vmin;
     margin-right: 5vmin;
     height: 60vmin;
   }
-  .hm_image{
+
+  .hm_image {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .img_iete{
+
+  .img_iete {
     width: 80vmin;
     margin-right: 5vmin;
     height: 60vmin;
   }
-  .iete_image{
+
+  .iete_image {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .img_ally{
+
+  .img_ally {
     width: 80vmin;
     margin-right: 5vmin;
     height: 60vmin;
   }
-  .ally_image{
+
+  .ally_image {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .img_khoj{ 
+
+  .img_khoj {
     width: 80vmin;
     margin-left: 10vmin;
     height: 60vmin;
   }
-  .khoj_image{
+
+  .khoj_image {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .img_personal{
+
+  .img_personal {
     width: 80vmin;
     margin-left: 10vmin;
     height: 60vmin;
   }
-  .personal_image{
+
+  .personal_image {
     display: block;
     /* display: flex;
     justify-content: center;
     align-items: center; */
   }
+
   /* BLINDR */
-  .txt_blindr h2{
-    margin-top:15px ;
+  .txt_blindr h2 {
+    margin-top: 15px;
     margin-left: 4vmin;
     margin-bottom: 1vmin;
   }
-  .txt_blindr{
+
+  .txt_blindr {
     margin-top: 3vmin;
     margin-left: 9vmin;
   }
-  .txt_blindr p{
+
+  .txt_blindr p {
     font-size: 2.8vmin;
     align-items: center;
     justify-content: center;
     display: flex;
     margin-left: 18px;
-    margin-right:12px;
+    margin-right: 12px;
   }
-  .txt_blindr h4{
+
+  .txt_blindr h4 {
     margin-top: 2vmin;
     font-size: 4vmin;
     margin-left: 18px;
   }
-  .txt_blindr ul li{
+
+  .txt_blindr ul li {
     list-style: disc white;
-    font-size:3vmin;
+    font-size: 3vmin;
     margin-left: 24px;
   }
-  .txt_blindr ul{
+
+  .txt_blindr ul {
     margin-top: 2vmin;
   }
-  .btn a{
+
+  .btn a {
     align-items: center;
     justify-content: center;
     display: flex;
   }
+
   /* MAILME */
-  .txt_mailme h2{
-    margin-top:15px ;
+  .txt_mailme h2 {
+    margin-top: 15px;
     /* font-size: 7vmin; */
     margin-left: 4vmin;
     margin-bottom: 1vmin;
   }
-  .txt_mailme{
+
+  .txt_mailme {
     margin-top: 3vmin;
     margin-left: 9vmin;
   }
-  .txt_mailme p{
+
+  .txt_mailme p {
     font-size: 3vmin;
     align-items: center;
     justify-content: center;
     display: flex;
     margin-left: 18px;
-    margin-right:12px;
+    margin-right: 12px;
   }
-  .txt_mailme h4{
+
+  .txt_mailme h4 {
     margin-top: 2vmin;
     font-size: 4vmin;
     margin-left: 18px;
   }
-  .txt_mailme ul li{
+
+  .txt_mailme ul li {
     list-style: disc white;
-    font-size:3vmin;
+    font-size: 3vmin;
     margin-left: 24px;
   }
-  .txt_mailme ul{
+
+  .txt_mailme ul {
     margin-top: 2vmin;
   }
-  .btn a{
+
+  .btn a {
     align-items: center;
     justify-content: center;
     display: flex;
   }
+
   /* HM */
-  .txt_hm h2{
-    margin-top:15px ;
+  .txt_hm h2 {
+    margin-top: 15px;
     font-size: 7vmin;
     margin-left: 4vmin;
     margin-bottom: 1vmin;
   }
-  .txt_hm p{
+
+  .txt_hm p {
     font-size: 2.8vmin;
     align-items: center;
     justify-content: center;
     display: flex;
     margin-left: 18px;
-    margin-right:12px;
+    margin-right: 12px;
   }
-  .txt_hm h4{
+
+  .txt_hm h4 {
     margin-top: 2vmin;
     font-size: 4vmin;
     margin-left: 18px;
   }
-  .txt_hm ul li{
+
+  .txt_hm ul li {
     list-style: disc white;
-    font-size:3vmin;
+    font-size: 3vmin;
     margin-left: 24px;
   }
-  .txt_hm ul{
+
+  .txt_hm ul {
     margin-top: 2vmin;
   }
-  .btn a{
+
+  .btn a {
     align-items: center;
     justify-content: center;
     display: flex;
   }
+
   /* IETE */
-  .txt_iete h2{
-    margin-top:15px ;
+  .txt_iete h2 {
+    margin-top: 15px;
     font-size: 7vmin;
     margin-left: 4vmin;
     margin-bottom: 1vmin;
   }
-  .txt_iete p{
+
+  .txt_iete p {
     font-size: 2.8vmin;
     align-items: center;
     justify-content: center;
     display: flex;
     margin-left: 18px;
-    margin-right:12px;
+    margin-right: 12px;
   }
-  .txt_iete h4{
+
+  .txt_iete h4 {
     margin-top: 2vmin;
     font-size: 4vmin;
     margin-left: 18px;
   }
-  .txt_iete ul li{
+
+  .txt_iete ul li {
     list-style: disc white;
-    font-size:3vmin;
+    font-size: 3vmin;
     margin-left: 24px;
   }
-  .txt_iete ul{
+
+  .txt_iete ul {
     margin-top: 2vmin;
   }
-  .btn a{
+
+  .btn a {
     align-items: center;
     justify-content: center;
     display: flex;
   }
+
   /* KHOJ */
-  .txt_khoj h2{
-    margin-top:15px ;
+  .txt_khoj h2 {
+    margin-top: 15px;
     font-size: 7vmin;
     margin-left: 4vmin;
     margin-bottom: 1vmin;
   }
-  .txt_khoj{
+
+  .txt_khoj {
     margin-left: 9vmin;
     margin-top: 8vmin;
   }
-  .txt_khoj p{
+
+  .txt_khoj p {
     font-size: 2.8vmin;
     align-items: center;
     justify-content: center;
     display: flex;
     margin-left: 18px;
-    margin-right:12px;
+    margin-right: 12px;
   }
-  .txt_khoj h4{
+
+  .txt_khoj h4 {
     margin-top: 2vmin;
     font-size: 4vmin;
     margin-left: 18px;
   }
-  .txt_khoj ul li{
+
+  .txt_khoj ul li {
     list-style: disc white;
-    font-size:3vmin;
+    font-size: 3vmin;
     margin-left: 24px;
   }
-  .txt_khoj ul{
+
+  .txt_khoj ul {
     margin-top: 2vmin;
   }
-  .btn a{
+
+  .btn a {
     align-items: center;
     justify-content: center;
     display: flex;
   }
+
   /* ALLY */
-  .txt_ally h2{
-    margin-top:15px ;
+  .txt_ally h2 {
+    margin-top: 15px;
     font-size: 7vmin;
     margin-left: 4vmin;
     margin-bottom: 1vmin;
   }
-  .txt_ally p{
+
+  .txt_ally p {
     font-size: 2.8vmin;
     align-items: center;
     justify-content: center;
     display: flex;
     margin-left: 18px;
-    margin-right:12px;
+    margin-right: 12px;
   }
-  .txt_ally h4{
+
+  .txt_ally h4 {
     margin-top: 2vmin;
     font-size: 4vmin;
     margin-left: 18px;
   }
-  .txt_ally ul li{
+
+  .txt_ally ul li {
     list-style: disc white;
-    font-size:3vmin;
+    font-size: 3vmin;
     margin-left: 24px;
   }
-  .txt_ally ul{
+
+  .txt_ally ul {
     margin-top: 2vmin;
   }
-  .btn a{
+
+  .btn a {
     align-items: center;
     justify-content: center;
     display: flex;
   }
+
   /* PERSONAL */
-  .txt_personal h2{
-    margin-top:15px ;
+  .txt_personal h2 {
+    margin-top: 15px;
     font-size: 7vmin;
     margin-left: 4vmin;
     margin-bottom: 1vmin;
   }
-  .txt_personal{
+
+  .txt_personal {
     margin-left: 9vmin;
     margin-top: 8vmin;
   }
-  .txt_personal p{
+
+  .txt_personal p {
     font-size: 2.8vmin;
     align-items: center;
     justify-content: center;
     display: flex;
     margin-left: 18px;
-    margin-right:12px;
+    margin-right: 12px;
   }
-  .txt_personal h4{
+
+  .txt_personal h4 {
     margin-top: 2vmin;
     font-size: 4vmin;
     margin-left: 18px;
   }
 
-  .txt_personal ul li{
+  .txt_personal ul li {
     list-style: disc white;
-    font-size:3vmin;
+    font-size: 3vmin;
     margin-left: 24px;
   }
-  .txt_personal ul{
+
+  .txt_personal ul {
     margin-top: 2vmin;
   }
 
-  .btn a{
+  .btn a {
     align-items: center;
     justify-content: center;
     display: flex;
   }
-  .connect p{
+
+  .connect p {
     font-size: 6vmin;
     margin-left: 5vmin;
   }
-  .connect .woo ul li{
+
+  .connect .woo ul li {
     margin: 3px;
-    padding:3px;
+    padding: 3px;
   }
-  .connect .woo{
+
+  .connect .woo ul {
+    margin-left: 20%;
+  }
+
+  .connect .woo {
     display: block;
-    margin-left:50%;
+    margin-left: 38%;
     align-items: center;
     justify-content: center;
   }
-  .connect{
-    width:"100%";
-    height:"90vh";
 
+  .connect {
+    width: "100%";
+    height: "60vh";
+  }
+
+  .ham {
+    display: block;
+    /* margin-top: 2vmin;
+    margin-left: 60vmin; */
+  }
+
+  .navbar .nav-links {
+    margin-left: 40%;
+    /* top: -100%;For hiding the navbar before the hamburger menu is clicked and when clicked it will show up from the top */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .nav-links .active {
+    top: 0;
   }
 }
