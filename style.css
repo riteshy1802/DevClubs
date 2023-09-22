@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 /*Page 1-----starts */
 header {
   background-color: black;
@@ -667,7 +666,7 @@ h1 {
 
 
 
-/* Media Query 2*/
+/* Media Query 1*/
 @media screen and (min-device-width: 1000px) and (max-device-width: 1200px)
 {
   
@@ -676,7 +675,7 @@ h1 {
     margin-left: 6vmin;
   }
   .navbar .nav-links{
-    margin-left: 50vmin;
+    margin-left: 45vmin;
     align-items: center;
   }
   .content .image{  
@@ -778,8 +777,10 @@ h1 {
 .img_hm{
   width: 50vmin;
   height: 40vmin;
-  margin-left: 6vmin;
-  margin-right: 2vmin;
+  margin-left: 4vmin;
+}
+.txt_hm{
+  margin-left: 3vmin;
 }
 .txt_hm h2{
   font-size: 6vmin;
@@ -821,6 +822,9 @@ h1 {
 }
 .ctn{
   font-size: 2vmin;
+}
+.txt_iete{
+  margin-left: 0;
 }
 
 /* KHOJ */
@@ -912,8 +916,10 @@ h1 {
   .ctn{
     font-size: 2vmin;
   }
+
 }
 
+/* Media Query 2 */
 @media screen and (min-device-width: 800px) and (max-device-width: 1000px){
   .navbar .nav-links{
     margin-left: 40vmin;
@@ -1463,7 +1469,7 @@ h1 {
 }
 
 
-
+/* Media Query 3 */
 @media screen and (max-width:800px)
 /*my screen size is 770*/
   {
@@ -2115,3 +2121,14 @@ h1 {
     top: 0;
   }
   }
+
+@media screen and (max-width:500px){
+  .navbar .ul .git {
+    width: 20px;
+    height: 20px;
+  }
+  .navbar .ul .lin {
+    width: 20px;
+    height: 20px;
+  }
+}
