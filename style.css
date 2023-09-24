@@ -2156,3 +2156,59 @@ h1 {
     top: 0;
   }
   }
+
+  @media screen and (max-width:700px){
+    #lin{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+    }
+    #git{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+  
+    }
+  }
+  @media screen and (max-width:600px){
+    #lin{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+    }
+    #git{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+  
+    }
+  }
+  @media screen and (max-width:500px){
+    #lin{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+    }
+    #git{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+  
+    }
+  }
+  @media screen and (max-width:400px){
+    #lin{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+    }
+    #git{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+  
+    }
+  }
+  @media screen and (max-width:300px){
+    #lin{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+    }
+    #git{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+  
+    }
+  }
