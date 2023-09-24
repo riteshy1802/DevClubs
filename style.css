@@ -164,6 +164,15 @@ h1 {
 .down:hover {
   transform: scale(1.2)
 }
+.resume:hover{
+  color: grey;
+}
+#git:hover{
+  color: rgb(231, 159, 27);
+}
+#lin:hover{
+  color: rgb(21, 118, 230);
+}
 
 /*Page 1-----ends */
 
@@ -236,6 +245,12 @@ h1 {
 
 .btn {
   margin-top: 30px;
+}
+#lin{
+  font-size: 4vmin;
+}
+#git{
+  font-size:4vmin
 }
 
 /*Page 2-----ends */
@@ -640,7 +655,9 @@ h1 {
   width: 30px;
   height: 30px;
 }
-
+.connect .woo .resume:hover{
+  color: grey;
+}
 .ham {
   height: 8vmin;
   width: 8vmin;
@@ -777,10 +794,10 @@ h1 {
 .img_hm{
   width: 50vmin;
   height: 40vmin;
-  margin-left: 4vmin;
+  margin-left: 3vmin;
 }
 .txt_hm{
-  margin-left: 3vmin;
+  margin-left: 5vmin;
 }
 .txt_hm h2{
   font-size: 6vmin;
@@ -922,7 +939,16 @@ h1 {
 /* Media Query 2 */
 @media screen and (min-device-width: 800px) and (max-device-width: 1000px){
   .navbar .nav-links{
-    margin-left: 40vmin;
+    margin-left: 30vmin;
+  }
+  #lin{
+    font-size: 4vmin;
+    margin-left: 3vmin;
+  }
+  #git{
+    font-size: 4vmin;
+    margin-left: 3vmin;
+
   }
   h1{
     font-size: 7vmin;
@@ -1476,6 +1502,15 @@ h1 {
   header {
     width: 100%;
     height: 110vmin;
+  }
+  #lin{
+    font-size: 4vmin;
+    margin-left: 3vmin;
+  }
+  #git{
+    font-size: 4vmin;
+    margin-left: 3vmin;
+
   }
   .closeBtn{
       display: flex;
@@ -2121,14 +2156,3 @@ h1 {
     top: 0;
   }
   }
-
-@media screen and (max-width:500px){
-  .navbar .ul .git {
-    width: 20px;
-    height: 20px;
-  }
-  .navbar .ul .lin {
-    width: 20px;
-    height: 20px;
-  }
-}
